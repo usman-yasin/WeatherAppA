@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mainView"
+    android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/imageViewArrow"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp"
+                        android:text="Day"
+                        />
+                    <TextView
+                        android:id="@+id/textViewDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:text="Date"
+                        android:layout_below="@+id/textViewDay"/>
+
+                    <TextView
+                        android:id="@+id/textViewTemperature"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:text="Date"
+                        android:layout_below="@+id/textViewDate"/>
+
+                    <TextView
+                        android:id="@+id/textViewDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:layout_marginTop="5dp"
+                        android:text="Description"
+                        android:layout_toRightOf="@+id/textViewDay"
+                        android:gravity="right"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+       <!--     <ImageView
+                android:id="@+id/imageViewArrow"
+                android:layout_width="15dp"
+
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/rightarrow"
+                android:layout_centerVertical="true"/>-->
+        </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "927459407017",
+    "firebase_url": "https://long-beach-myauditor-app-live.firebaseio.com",
+    "project_id": "long-beach-myauditor-app-live",
+    "storage_bucket": "long-beach-myauditor-app-live.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927459407017:android:adf7d5cf236c78ed",
+        "android_client_info": {
+          "package_name": "gov.longbeach.myauditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927459407017-nan2k3vl87vka43bdj3b6gsfv0dljikd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEdAkPKcLom2uKqdwJA8UO7fQNPwrsgbU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
